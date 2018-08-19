@@ -5,8 +5,8 @@
   "author": "Andy Pickler",
   "license": "MIT",
   "engines": {
-    "node": "~8.11.0",
-    "npm": "~6.4"
+    "node": "8.11.4",
+    "npm": "6.4"
   },
   "scripts": {
     "format": "prettier --write \"**/*.ts\"",
@@ -26,7 +26,9 @@
     "fastify-formbody": "^2.0.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.0.0",
+    "ts-loader": "^4.1.0",
     "ts-node": "^4.1.0",
+    "tsconfig-paths": "^3.1.1",
     "typescript": "^2.6.2"
   },
   "devDependencies": {
@@ -40,8 +42,6 @@
     "prettier": "^1.11.1",
     "supertest": "^3.0.0",
     "ts-jest": "^21.2.4",
-    "ts-loader": "^4.1.0",
-    "tsconfig-paths": "^3.1.1",
     "tslint": "5.3.2",
     "webpack": "^4.2.0",
     "webpack-cli": "^2.0.13",
